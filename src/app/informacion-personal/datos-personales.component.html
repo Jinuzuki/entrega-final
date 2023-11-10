@@ -2,9 +2,7 @@
    <div>
       <h2>Información Personal</h2>
       <ul>
-         <li>{{Estudios.informacionPersonal[0]}}</li>
-         <li>{{Estudios.informacionPersonal[1]}}</li>
-         <li>{{Estudios.informacionPersonal[2]}}</li>
+         <li *ngFor="let item of Estudios">{{item.informacionPersonal}}</li>
       </ul>
    </div>
 </section>

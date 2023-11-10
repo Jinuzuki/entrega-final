@@ -11,10 +11,10 @@ export class FooterComponent implements OnInit {
   constructor(private cvService:CvService){}
 
   ngOnInit(): void {
-    this.cvService.obtenerEducacion().subscribe(
+    this.cvService.obtenerDatos().subscribe(
       data => {
-        console.log(data["estudiosTerminados"][2]);
-        this.Estudios=data["estudiosTerminados"][2];
+        console.log(data["footer"]);
+        this.Estudios=data["footer"];
       }
     )
   }

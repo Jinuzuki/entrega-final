@@ -2,8 +2,7 @@
     <div>
        <h2>Estudios terminados</h2>
        <ul>
-          <li>{{Estudios.curso}}</li>
-          <li>{{Estudios.ingles}}</li>
+         <li *ngFor="let item of Estudios">{{item.estudiosterminados}}</li>
        </ul>
     </div>
  </section>

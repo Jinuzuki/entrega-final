@@ -1,31 +1,42 @@
 {
-    "estudiosTerminados": [
-        {
-            "curso": "CISCO seguridad informática 2021",
-            "ingles": "Ingles Hill Side Institute 2012 - 2021"
-        },
-        {
-            "proyecto1": "Creación de proyecto web de ventas en Shopify 2022. Nombre del proyecto: OnliShop. Contacto de referencia: pablo bersiers",
-            "proyecto2": "Creación de landing pages y E-commerce 2022 - 2023. Nombre del proyecto: WebCreation. Contacto de referencia: Maciotra"
-        },
-        {
-            "footer": "© 2023 Cristian Ignacio Martinez Mitre. Best programador osaa."
-        },
-        {
-            "habilidades": ["Diseño gráfico", "Edición de video", "Conocimiento de CSS, JavaScript, HTML y Solidity", "Conocimiento de configuración de SEO"]
+    "habilidades":[
+        { "habilidad": "Diseño gráfico"},
+        { "habilidad": "Edición de video"},
+        { "habilidad": "Conocimiento de CSS, JavaScript, HTML y Solidity"},
+        { "habilidad": "Conocimiento de configuración de SEO"}
+        
+    ],
 
-        },
-        {
-            "header": "Cristian Ignacio Martinez Mitre"
+    "estudiosterminados":[
+        { "estudiosterminados": "CISCO seguridad informática 2021"},
+        { "estudiosterminados": "Ingles Hill Side Institute 2012 - 2021"}
 
-        },
-        {
-            "idiomas": ["Español nativo", "Inglés avanzado"]
+    ],
 
-        },
-        {
-            "informacionPersonal": ["Email: nachom04@hotmail.com", "Ciudad: Esquel", "Edad: 18 años"]
+    "proyecto":[
+        { "proyecto": "Creación de proyecto web de ventas en Shopify 2022. Nombre del proyecto: OnliShop. Contacto de referencia: pablo bersiers"},
+        { "proyecto": "Creación de landing pages y E-commerce 2022 - 2023. Nombre del proyecto: WebCreation. Contacto de referencia: Maciotra"}
 
-        }
+    ],
+
+    "footer":[
+        { "footer": "© 2023 Cristian Ignacio Martinez Mitre. Best programador osaa."}
+    ],
+
+    "heater":[
+        { "heater": "Cristian Ignacio Martinez Mitre"}
+    ],
+
+    "idiomas":[
+        { "idiomas": "Español nativo"},
+        { "idiomas": "Inglés avanzado"}
+    ],
+    
+    "informacionPersonal":[
+        { "informacionPersonal": "Email: nachom04@hotmail.com"},
+        { "informacionPersonal": "Ciudad: Esquel"},
+        { "informacionPersonal": "Edad: 18 años"}
+
     ]
+    
 }

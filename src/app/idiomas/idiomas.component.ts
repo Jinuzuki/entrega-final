@@ -12,10 +12,10 @@ export class IdiomasComponent implements OnInit {
   constructor(private cvService:CvService){}
 
   ngOnInit(): void {
-    this.cvService.obtenerEducacion().subscribe(
+    this.cvService.obtenerDatos().subscribe(
       data => {
-        console.log(data["estudiosTerminados"][5]);
-        this.Estudios=data["estudiosTerminados"][5];
+        console.log(data["idiomas"]);
+        this.Estudios=data["idiomas"];
       }
     )
   }

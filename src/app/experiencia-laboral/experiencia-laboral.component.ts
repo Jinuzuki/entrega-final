@@ -12,10 +12,10 @@ export class ExperienciaLaboralComponent implements OnInit {
   constructor(private cvService:CvService){}
 
   ngOnInit(): void {
-    this.cvService.obtenerEducacion().subscribe(
+    this.cvService.obtenerDatos().subscribe(
       data => {
-        console.log(data["estudiosTerminados"][1]);
-        this.Estudios=data["estudiosTerminados"][1];
+        console.log(data["proyecto"]);
+        this.Estudios=data["proyecto"];
       }
     )
   }

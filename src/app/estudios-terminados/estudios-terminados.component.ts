@@ -11,10 +11,10 @@ export class EstudiosTerminadosComponent implements OnInit {
   constructor(private cvService:CvService){}
 
   ngOnInit(): void {
-    this.cvService.obtenerEducacion().subscribe(
+    this.cvService.obtenerDatos().subscribe(
       data => {
-        console.log(data["estudiosTerminados"][0]);
-        this.Estudios=data["estudiosTerminados"][0];
+        console.log(data["estudiosterminados"]);
+        this.Estudios=data["estudiosterminados"];
       }
     )
   }

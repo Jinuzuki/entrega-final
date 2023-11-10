@@ -2,9 +2,8 @@
     <div>
        <h2>Idiomas</h2>
        <ul>
-          <li>{{Estudios.idiomas[0]}}</li> 
-          <li>{{Estudios.idiomas[1]}}</li>
-       </ul>
+         <li *ngFor="let item of Estudios">{{item.idiomas}}</li>
+      </ul>
     </div>
  </section>
 

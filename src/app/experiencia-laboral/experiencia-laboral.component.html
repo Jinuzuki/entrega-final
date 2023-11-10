@@ -2,8 +2,7 @@
     <div>
        <h2>Experiencia Laboral</h2>
        <ul>
-          <li>{{Estudios.proyecto1}}</li>
-          <li>{{Estudios.proyecto2}}</li>
+         <li *ngFor="let item of Estudios">{{item.proyecto}}</li>
        </ul>
     </div>
  </section>
